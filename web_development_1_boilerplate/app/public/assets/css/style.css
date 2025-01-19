@@ -1,0 +1,44 @@
+/* Background Image */
+body {
+    background: url('../img/background.avif') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ecf0f1;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Navbar Hover Effects */
+.nav a:hover {
+    color: #f1c40f !important;
+}
+
+/* Footer Links */
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff !important;
+}
+/* Quote Section */
+.quote-section {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 50px 20px;
+    font-style: italic;
+    font-size: 1.5rem;
+    border-left: 5px solid #f1c40f; /* Highlight with yellow borders */
+    border-right: 5px solid #f1c40f;
+}
+
+.blockquote-footer {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+
